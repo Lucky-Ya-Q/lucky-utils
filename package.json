@@ -16,7 +16,8 @@
   "browser": "./dist/index.min.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "vite build"
+    "build": "vite build && npm run build:types",
+    "build:types": "node scripts/buildTypes.mjs"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
   },
   "homepage": "https://github.com/Lucky-Ya-Q/lucky-utils#readme",
   "devDependencies": {
+    "dts-bundle-generator": "^8.0.1",
     "vite": "^4.3.9",
     "vite-plugin-banner": "^0.7.0"
   }
