@@ -1,5 +1,4 @@
-// vite.config.ts
-import {defineConfig} from 'vite'
+import { defineConfig } from 'vite'
 // 导入版权注释插件
 import banner from 'vite-plugin-banner'
 // @ts-ignore

@@ -1,8 +1,7 @@
-// scripts/buildTypes.mjs
-import {writeFileSync} from 'fs'
-import {dirname, resolve} from 'path'
-import {fileURLToPath} from 'url'
-import {generateDtsBundle} from 'dts-bundle-generator'
+import { writeFileSync } from 'fs'
+import { dirname, resolve } from 'path'
+import { fileURLToPath } from 'url'
+import { generateDtsBundle } from 'dts-bundle-generator'
 
 async function run() {
     // 默认情况下 `.mjs` 文件需要自己声明 __dirname 变量

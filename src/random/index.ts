@@ -1,5 +1,3 @@
-// src/random/index.ts
-
 /**
  * 生成随机数
  * @param min - 最小值
