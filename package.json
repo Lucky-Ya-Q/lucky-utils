@@ -1,0 +1,39 @@
+{
+  "name": "lucky-utils",
+  "version": "1.0.0",
+  "description": "一个幸运的工具类",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "browser": "./dist/index.min.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucky-Ya-Q/lucky-utils.git"
+  },
+  "keywords": [
+    "lucky",
+    "utils"
+  ],
+  "author": "也曾为你像超人",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucky-Ya-Q/lucky-utils/issues"
+  },
+  "homepage": "https://github.com/Lucky-Ya-Q/lucky-utils#readme",
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "vite-plugin-banner": "^0.7.0"
+  }
+}
