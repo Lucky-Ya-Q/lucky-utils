@@ -8,7 +8,7 @@ let callbacksObj = {}
 
 export const eventBus: {
     on: (eventName: string, callback: (data: {}) => void) => void
-    emit: (eventName: string, data: {}) => void
+    emit: (eventName: string, data?: {}) => void
     off: (eventName: string) => void
 } = {
     on: function (eventName, callback) {
